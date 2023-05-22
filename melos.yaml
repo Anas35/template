@@ -1,0 +1,6 @@
+name: melos_script
+
+packages:
+  - packages/*
+
+scripts:
