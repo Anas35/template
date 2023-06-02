@@ -12,5 +12,9 @@ void main() {
     test('Test', () {
       expect(awesome.isAwesome, isTrue);
     });
+
+    test('Instance', () {
+      expect(awesome, isA<Awesome>());
+    });
   });
 }
