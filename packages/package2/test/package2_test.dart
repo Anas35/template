@@ -9,5 +9,9 @@ void main() {
       expect(awesome.isAwesome, isTrue);
     });
 
+    test('Instance', () {
+      expect(awesome, isA<Awesome>());
+    });
+
   });
 }
