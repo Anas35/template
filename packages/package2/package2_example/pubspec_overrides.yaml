@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: package2
+dependency_overrides:
+  package2:
+    path: ..
